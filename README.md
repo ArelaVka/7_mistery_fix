@@ -15,6 +15,7 @@ from quadratic_equation import get_roots
 
 ```python
 print(get_roots(a, b, c))
+(1.0, 2.0)
 ```
 
 При запуске модуля tests.py происходит проверка. Успешный запуск unittest возвращает:
