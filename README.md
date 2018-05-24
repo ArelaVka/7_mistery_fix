@@ -6,15 +6,26 @@
 
 Для использования функции необходимо импортировать модуль quadratic_equation.py:
 ```bash
-import quadratic_equation.py
+from quadratic_equation import get_roots
 ```
 Далее в своём приложении можно использовать функцию get_roots(a, b, c), где a, b, c - коэффициенты квадратного уравнения (*ax^2 + bx + c*).
+
+Пример:
+```bash
+a=1
+b=-3
+c=2
+print(get_roots(a, b, c))
+
+>> (1.0, 2.0)
+```
 
 При запуске модуля tests.py происходит проверка. Успешный запуск unittest возвращает:
 
 ```bash
+....
 ----------------------------------------------------------------------
-Ran 4 tests in 0.059s
+Ran 4 tests in 0.042s
 
 OK
 ```
